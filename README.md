@@ -1,6 +1,6 @@
 # bubble-sort
 
-This is a sort that I've implemented without ever looking at any sorting algorithm. Afterwards, I got to know that I have implemented Selection Sort. ✌
+This is a sort that I've implemented without ever looking at any sorting algorithm. Afterwards, I got to know that I have implemented bubble Sort. ✌
 
 ## Usage
 
