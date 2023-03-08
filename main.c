@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include<conio.h>
-int main()
-{
+int main() {
     int i, j, a, b;
 
     printf("Enter the length of the array = ");
-    scanf("%d",&a);
+    scanf("%d", &a);
 
     int array[a];
 
@@ -15,15 +14,17 @@ int main()
         scanf("%d", &array[i]);
     }
 
-    for (i = 0; i < a; i++) {
-        for (j = 0; j < a - 1 - i; j++) {
-            if (array[j] < array[j + 1]) {
-                b = array[j];
-                array[j] = array[j + 1];
-                array[j + 1] = b;
+        for (i = 0; i < a; i++) {
+            for (j = 0; j < a - 1 - i; j++) {
+                if (array[j] < array[j + 1]) {
+                    b = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = b;
+                }
             }
         }
-    }
+
+
 
     printf("The sorted array in descending order is : ");
 
@@ -33,5 +34,5 @@ int main()
             printf(", ");
         }
     }
-
+    getch();
 }
