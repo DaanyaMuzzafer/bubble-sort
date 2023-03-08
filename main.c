@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 int main()
 {
     int i, j, a, b;
@@ -29,7 +30,8 @@ int main()
     for (i = 0; i < a; i++) {
         printf("%d", array[i]);
         if (i < a - 1) {
-            printf(" ,");
+            printf(", ");
         }
     }
+
 }
